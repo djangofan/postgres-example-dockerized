@@ -13,5 +13,14 @@ Simply install Docker on your machine and then run:
 
 See docker-compose.yml for more info.
 
+
+## Loading DB
+
 After its running, use the adminer app to load the .sql file script into the database.
 
+OR
+
+    mvn flyway:clean
+    mvn flyway:baseline
+    mvn flyway:migrate
+    mvn flyway:info

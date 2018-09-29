@@ -40,18 +40,12 @@
                     <user>${database.username}</user>
                     <password>${database.password}</password>
                     <schemas>
-                        <schema>${database.username}</schema>
+                        <schema>postgres</schema>
                     </schemas>
                     <locations>
                         <location>db/migrations</location>
                     </locations>
-                    <encoding>ISO-8859-1</encoding>
                     <cleanOnValidationError>true</cleanOnValidationError>
-                    <placeholders>
-                        <email_type.primary>Primary</email_type.primary>
-                        <email_type.work>Work</email_type.work>
-                        <phone_type.home>Home</phone_type.home>
-                    </placeholders>
                 </configuration>
                 <executions>
                     <execution>
