@@ -11,6 +11,8 @@ Simply install Docker on your machine and then run:
 
 See docker-compose.yml for more info.
 
+Verify its running by accessing it at:  http://localhost:9000
+
 
 ## Loading DB
 
