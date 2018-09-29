@@ -48,6 +48,7 @@
                     <cleanOnValidationError>true</cleanOnValidationError>
                     <baselineVersion>2.0</baselineVersion>
                     <baselineDescription>Baseline plus 2 states</baselineDescription>
+                    <table>schema_version</table>
                 </configuration>
                 <executions>
                     <execution>
