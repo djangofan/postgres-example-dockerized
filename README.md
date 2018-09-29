@@ -38,4 +38,4 @@ After its running, use the adminer app to load the .sql file script into the dat
 
 ## What it looks like
 
-![Screenshot](blob/master/what_it_looks_like.png)
+![Screenshot](https://github.com/djangofan/postgres-example-dockerized/blob/master/what_it_looks_like.png)
