@@ -20,11 +20,17 @@ Data comes from : https://resources.oreilly.com/examples/9780596526887/
 
 For the mini book "A Guide to SQL Usage, Pocket Guide"  
 
+### Add data manually
+
 After its running, use the adminer app to load the .sql file script into the database.
 
-OR
+### Add data with Flyway:
 
     mvn flyway:clean
     mvn flyway:baseline
+
+#### Optional commands:
+
     mvn flyway:migrate
     mvn flyway:info
+    mvn flyway:repair
