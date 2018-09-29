@@ -1,8 +1,6 @@
 # dockerized-postgres-example
 
-Data comes from : https://resources.oreilly.com/examples/9780596526887/
-
-For the mini book "A Guide to SQL Usage, Pocket Guide"  
+An example of a dockerized Postgres with Flyway migration.
 
 ## Instructions
 
@@ -15,6 +13,10 @@ See docker-compose.yml for more info.
 
 
 ## Loading DB
+
+Data comes from : https://resources.oreilly.com/examples/9780596526887/
+
+For the mini book "A Guide to SQL Usage, Pocket Guide"  
 
 After its running, use the adminer app to load the .sql file script into the database.
 
