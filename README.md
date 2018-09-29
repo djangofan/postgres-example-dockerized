@@ -10,3 +10,8 @@ Simply install Docker on your machine and then run:
 
     docker-compose up -d
 
+
+See docker-compose.yml for more info.
+
+After its running, use the adminer app to load the .sql file script into the database.
+
