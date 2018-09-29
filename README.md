@@ -34,3 +34,8 @@ After its running, use the adminer app to load the .sql file script into the dat
     mvn flyway:migrate
     mvn flyway:info
     mvn flyway:repair
+
+
+## What it looks like
+
+![Screenshot](blob/master/what_it_looks_like.png)
