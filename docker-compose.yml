@@ -4,15 +4,15 @@ services:
 
   db:
     image: postgres
-    container_name: postgres-db
+    container_name: pg-db
     restart: always
     environment:
-      POSTGRES_PASSWORD: example
+      POSTGRES_PASSWORD: s3cret
 
   # http://localhost:5080
   adminer:
     image: adminer
-    container_name: adminer
+    container_name: admin-app
     restart: always
     environment:
      - ADMINER_DEFAULT_SERVER=db
@@ -20,9 +20,9 @@ services:
       - 5080:8080
 
   # http://localhost:9000/#/containers
-  portainer-app:
+  portainer:
     image: portainer/portainer
-    container_name: portainer
+    container_name: portainer-app
     command: --no-auth
     volumes:
      - /var/run/docker.sock:/var/run/docker.sock
