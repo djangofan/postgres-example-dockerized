@@ -4,7 +4,7 @@ An example of a dockerized Postgres with Flyway migration.
 
 ## Instructions
 
-Simply install Docker on your machine and then run:
+Simply install Docker on your machine and then run the included shell script OR run directly :
 
     docker-compose up -d
 
