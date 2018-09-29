@@ -10,7 +10,7 @@
         <flyway.version>3.2.1</flyway.version>
         <mysql.driver.version>5.1.13</mysql.driver.version>
         <database.driver>org.postgresql.Driver</database.driver>
-        <database.url>jdbc:postgresql://localhost/postgres</database.url>
+        <database.url>jdbc:postgresql://172.21.0.3:5432/postgres</database.url>
         <database.username>postgres</database.username>
         <database.password>s3cret</database.password>
     </properties>
@@ -22,10 +22,9 @@
             <version>${flyway.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.postgresql</groupId>
+            <groupId>postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.2.5.jre7</version>
-            <type>bundle</type>
+            <version>9.1-901-1.jdbc4</version>
         </dependency>
     </dependencies>
 
@@ -44,7 +43,7 @@
                         <schema>${database.username}</schema>
                     </schemas>
                     <locations>
-                        <location>sql/migrations</location>
+                        <location>db/migrations</location>
                     </locations>
                     <encoding>ISO-8859-1</encoding>
                     <cleanOnValidationError>true</cleanOnValidationError>
